@@ -3,12 +3,10 @@ const header = document.querySelector('header');
 
 const displayMobileNav = () => {
   const mobileNav = document.createElement('div');
-  mobileNav.classList.add('mobileNave');
+  mobileNav.classList.add('mobileNav');
   const nav = `
     <nav id="mobile-nav">
-      <button type="button" class="menu-bars" id="menu-bar">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
+      <i class="fas fa-times fa-2x"></i>
       <ul>
         <li><a class="nav-link" href="#projects">Portoflio</a></li>
         <li><a class="nav-link" href="#about-me">About</a></li>
