@@ -8,9 +8,9 @@ const displayMobileNav = () => {
     <nav id="mobile-nav">
       <i class="fas fa-times fa-2x"></i>
       <ul>
-        <li><a class="nav-link" href="#projects">Portoflio</a></li>
-        <li><a class="nav-link" href="#about-me">About</a></li>
-        <li>
+        <li class="listItem"><a class="nav-link" href="#projects">Portoflio</a></li>
+        <li class="listItem"><a class="nav-link" href="#about-me">About</a></li>
+        <li class="listItem">
           <a class="nav-link" href="#contact"
             >Contact <i class="far fa-envelope"></i
           ></a>
