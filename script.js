@@ -21,7 +21,7 @@ const displayMobileNav = () => {
   mobileNav.innerHTML = nav;
   header.append(mobileNav);
 
-  const closeBtn = document.getElementById('closeBtn')
+  const closeBtn = document.getElementById('closeBtn');
   closeBtn.addEventListener('click', () => {
     header.remove(mobileNav);
   });
