@@ -6,7 +6,7 @@ const displayMobileNav = () => {
   mobileNav.classList.add('mobileNav');
   const nav = `
     <nav id="mobile-nav">
-      <i class="fas fa-times fa-2x"></i>
+      <i class="fas fa-times fa-2x" id="closeBtn"></i>
       <ul>
         <li class="listItem"><a class="nav-link" href="#projects">Portoflio</a></li>
         <li class="listItem"><a class="nav-link" href="#about-me">About</a></li>
@@ -20,6 +20,11 @@ const displayMobileNav = () => {
   `;
   mobileNav.innerHTML = nav;
   header.append(mobileNav);
+
+  const closeBtn = document.getElementById('closeBtn')
+  closeBtn.addEventListener('click', () => {
+    header.remove(mobileNav);
+  });
 };
 
 hamburger.addEventListener('click', () => {

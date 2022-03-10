@@ -1,5 +1,10 @@
 # curriculum-cr-training-mobile-menu
+> In this project I Add mobile menu functionality.
 
+## Built with
+- HTML.
+- CSS.
+- Javascript.
 
 ## Author
 
