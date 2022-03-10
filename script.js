@@ -25,6 +25,13 @@ const displayMobileNav = () => {
   closeBtn.addEventListener('click', () => {
     header.remove(mobileNav);
   });
+
+  const navLinks = document.querySelectorAll('.nav-link');
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      header.remove(mobileNav);
+    });
+  });
 };
 
 hamburger.addEventListener('click', () => {
